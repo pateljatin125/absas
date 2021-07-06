@@ -1,0 +1,547 @@
+body {
+  font-family: "Lato", sans-serif !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.badge-sm {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+}
+.fs14 {
+  font-size: 14px;
+}
+.fs12 {
+  font-size: 12px;
+}
+.theme-text {
+    color: #670CA4;
+}
+.btn-theme-outline {
+    padding: 7px 25px;
+  border: none;
+  font-size: 14px;
+  border-radius: 4px;
+  color: #ff9000;
+  position: relative;
+  font-weight: 600;
+  outline: none;
+  border-radius: 30px;
+  border:solid 1px #ff9000;
+}
+span[data-toggle="dropdown"] i{
+    cursor: pointer;
+    padding: 5px;
+    top: 10px;
+    position: relative;
+}
+span[data-toggle="dropdown"] i:hover{
+    background:#eee;
+}
+.btn-theme {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff9000+0,ff0000+27,7100b2+100 */
+  background: #ff9000; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #ff9000 0%,
+    #ff0000 27%,
+    #7100b2 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #ff9000 0%,
+    #ff0000 27%,
+    #7100b2 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff9000 0%,
+    #ff0000 27%,
+    #7100b2 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9000', endColorstr='#7100b2',GradientType=1 ); /* IE6-9 */
+  padding: 7px 25px;
+  border: none;
+  font-size: 14px;
+  border-radius: 4px;
+  color: #fff;
+  position: relative;
+  font-weight: 600;
+  outline: none;
+  border-radius: 30px;
+}
+.btn-theme:hover {
+  color: #fff;
+  background: #333;
+}
+.btn-theme-mini {
+  background: #e1e1e1;
+  color: #000;
+  padding: 3px 8px;
+  border-radius: 50px;
+  font-size: 12px;
+}
+.btn-theme-mini:hover {
+  background: #333;
+  color: #fff;
+}
+.btn-light {
+  color: #212529;
+  background-color: #f0f0f0;
+  border-color: #f8f9fa;
+}
+.loginbg {
+  background: url("../img/bodybg.jpg");
+}
+.loginwith i {
+  font-size: 36px;
+  margin: 0 5px;
+}
+.loginwith i.fa-google-plus {
+  color: #d70032;
+}
+.loginwith a:hover i {
+  color: #fff;
+}
+header {
+  background: #2e0947;
+}
+#logo img {
+  width: 50px;
+  padding: 5px 0;
+}
+#logo span {
+  font-weight: bold;
+  color: #f37221;
+}
+.post-profile-name{
+    color: #670CA4;
+text-transform: capitalize;
+font-weight: 600;
+    font-size: 16px;
+}
+.text-gray {
+    color: #999;
+}
+#avtar {
+  display: block;
+}
+#avtar img {
+  width: 100px;
+}
+.main-menu {
+  padding: 0;
+  margin: 0;
+}
+.right-menus {
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+.right-menus li a i{
+    top:5px;
+    position: relative;
+}
+.main-menu li {
+  display: inline-block;
+  list-style: none;
+}
+.main-menu li a {
+  color: #ccc;
+  display: block;
+  padding: 15px 10px;
+}
+.right-menus li {
+  list-style: none;
+  display: inline-block;
+}
+.right-menus li a {
+  color: #ccc;
+  display: block;
+  padding: 15px 10px;
+}
+.main-menu li.current a,
+.main-menu li a:hover,
+.right-menus li a:hover {
+  color: #fff;
+}
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  -o-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  -moz-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  -ms-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.bg-gray {
+  background: #f4f4f4;
+}
+.card p {
+  font-weight: 400;
+}
+.post-avtar {
+  width: 50px;
+  border-radius: 50px;
+  margin-right: 15px;
+  border: solid 1px #c2c2c2;
+}
+.actions{
+    padding-top:10px;
+    padding-bottom:5px;
+}
+.actions a {
+  display: inline-block;
+}
+.actions i {
+  font-size: 30px;
+  color: #ccc;
+}
+.actions a img {
+  opacity: 0.3;
+}
+.actions a:hover img {
+  opacity: 1;
+}
+.actions a:hover * {
+  color: #000 !important;
+}
+.actions img {
+  width: 25px;
+}
+.post-date{margin-left: 70px;margin-top: -12px;}
+#pitch_posts .card {
+  margin: auto;
+  max-width: 100%;
+}
+.pitch-post-image {
+    position:relative;
+}
+.post-gall {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    color:#fff;
+}
+.post-gall:hover{
+    background:#fff;
+    color:#000;
+}
+.others-pitch .card {
+  margin: auto;
+  max-width: 650px;
+}
+.sticky-box {
+  position: sticky;
+  top: 5px;
+}
+.friend-followings {
+  font-weight: 600;
+  color: #777;
+}
+#polls {
+  position: fixed;
+  bottom: -100%;
+  right: 20px;
+  z-index: 9999;
+  border-radius: 12px 12px 0 0;
+  transition: all ease-in-out 0.4s;
+  -o-transition: all ease-in-out 0.4s;
+  -ms-transition: all ease-in-out 0.4s;
+  -moz-transition: all ease-in-out 0.4s;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#de2dae+22,9d1ae8+70 */
+  background: #de2dae; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #de2dae 22%,
+    #9d1ae8 70%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #de2dae 22%,
+    #9d1ae8 70%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #de2dae 22%,
+    #9d1ae8 70%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de2dae', endColorstr='#9d1ae8',GradientType=0 ); /* IE6-9 */
+}
+.inner-padding {
+  padding: 15px;
+}
+.close_poll {
+  position: absolute;
+  top: -16px;
+  right: 0;
+  background: #000;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.close_poll i {
+  line-height: 30px;
+  font-size: 16px;
+}
+.news-inner-padding {
+  padding: 40px;
+}
+.news h4 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.news p {
+  color: #999;
+  font-size: 16px;
+}
+.search-container {
+  position: relative;
+}
+.search-bar {
+  position: absolute;
+  top: 10px;
+  right: 45px;
+  overflow: hidden;
+  width: 0;
+  transition: all ease-in 0.3s;
+  -o-transition: all ease-in 0.3s;
+  -ms-transition: all ease-in 0.3s;
+  -moz-transition: all ease-in 0.3s;
+}
+.search-bar.open {
+  width: 300px;
+}
+.search-bar input {
+  padding: 9px;
+  border: none;
+  font-size: 14px;
+}
+.dropdown-menu {
+    max-height: 300px;
+    overflow: auto;
+    border-radius: 0;
+    width: 300px;
+    right: 0 !important;
+    left: unset !important;
+    transform: none !important;
+top: 95% !important;
+overflow: visible!important;
+}
+.dropdown-menu:after {
+  width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    position: absolute;
+    top: -10px;
+    right: 15px;
+    content: "";
+}
+.comments .comment{
+    padding:15px;
+}
+.comments form{
+    padding:10px 15px;
+}
+.comment-text {
+  display: block;
+  box-sizing: border-box;
+  padding-left: 40px;
+}
+.comment-profile {
+  margin-bottom: -40px;
+}
+.suggetions h5 {
+    color: #2E0947;
+    font-weight: 600;
+    font-size:14px;
+}
+.profile-name{
+    color:#000;
+    text-transform: capitalize;
+}
+.profile-name h4{
+    font-size:18px;
+}
+.dropdown-menu-requests{
+    height: 300px;
+padding:0;
+}
+.dropdown-menu-requests .suggetions{
+    height: 300px;
+overflow-y: scroll !important;
+padding:0;
+}
+.dropdown-menu-requests .suggetions a{
+    padding:0;
+}
+.btn-confirm {
+    display: inline-block !important;
+    float: left;
+    padding: 4px 12px !important;
+    text-align: center;
+    background: #2e0947;
+    color: #fff !important;
+    font-size: 13px;
+    margin-right: 5px;
+}
+.btn-remove {
+    display: inline-block !important;
+    float: left;
+    padding: 4px 12px !important;
+    text-align: center;
+    background: #eaeaea;
+    color: #8c8a8a !important;
+    font-size: 13px;
+}
+.btn-confirm:hover ,.btn-remove:hover {
+    background: #eaeaea;
+    color: #000 !important;
+}
+#avtar #upload_image {
+    width: 70px;
+    display: block;
+    margin: -12px auto 0 auto;
+    overflow: hidden;
+    background:none;
+    text-indent: 975px;
+    position: relative;
+    z-index: 9;
+    cursor:pointer;
+}
+#avtar #upload_image:hover{
+    background: none;
+}
+#avtar:hover img{
+    opacity:1;
+}
+#avtar img#upload-icon{
+    width: 35px;
+    border-radius: 50px;
+    height: 35px;
+    box-shadow: 0 0 10px -6px #000;
+    display: inherit;
+    margin: -20px auto -30px auto;
+    opacity:0.8;
+}
+.slider{
+    padding:0 15px;
+}
+.profile-thumb{
+    border-radius:150px;
+}
+.logout{
+    color:#777;
+}
+.logout:hover{
+    color:#000;
+}
+.postgallery .close{
+    position: absolute;
+    right: -15px;
+    background: #000;
+    color: #fff;
+    opacity: 1;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    z-index: 99;
+    border-radius: 50px;
+    top: -15px;
+}
+.postgallery .modal-dialog{
+    max-width:85%!important;
+}
+.nodata{
+    padding-top:100px;
+    padding-bottom:100px;
+    font-size:30px;
+    color:#999;
+}
+.nodata i{
+    color:#777;
+    font-size:50px;
+}
+
+/*=============================================================
+Responsive Css
+==============================================================*/
+@media all and (max-width: 767px) {
+  .main-menu {
+    display: none;
+  }
+  .slider img {
+    height: 150px;
+  }
+  .main-menu li {
+    display: block;
+  }
+  .right-menus li a {
+    color: #ccc;
+    display: block;
+    padding: 5px;
+  }
+  .right-menus {
+    float: right;
+    position: absolute;
+    top: 15px;
+    right: 0;
+  }
+  .border-sm-none {
+    border: none !important;
+  }
+  .card-body h4 {
+    font-size: 18px;
+  }
+  #avtar img {
+    width: 30px;
+  }
+  #avtar {
+    display: block;
+    float: left;
+  }
+  #logo span {
+    display: none;
+  }
+  #pitch_posts .card-body .badge {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .news-inner-padding {
+    padding: 0;
+  }
+  #polls {
+    right: 10px;
+  }
+  #pitch_posts .card {
+    box-shadow: none !important;
+  }
+  .container-fluid {
+    padding: 0;
+  }
+  .sticky-box.sidebar {
+    display: none;
+  }
+  .feed {
+    padding: 0 !important;
+  }
+  .bg-gray {
+    background: #d8d8d8;
+  }
+  .postgallery .modal-dialog{
+    max-width:100%;
+}
+}
+
+@media all and (min-width: 768px) and (max-width: 767px) {
+  #logo span {
+    display: none;
+  }
+}

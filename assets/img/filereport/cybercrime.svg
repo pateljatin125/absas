@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="5.40261in" height="7.16667in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1292 1714"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#2E381D}
+    .fil11 {fill:#3C3A41}
+    .fil10 {fill:#57555C}
+    .fil3 {fill:#703700}
+    .fil2 {fill:#9A4C00}
+    .fil6 {fill:#AEADB3}
+    .fil9 {fill:#C06100}
+    .fil5 {fill:#C8C6CD}
+    .fil8 {fill:#FF8900}
+    .fil7 {fill:#FFC473}
+    .fil4 {fill:#FFDBA9}
+    .fil1 {fill:white}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2009934428240">
+   <path class="fil0" d="M625 1661c-140,-163 -597,-718 -597,-1015 0,-341 277,-618 618,-618 342,0 619,277 619,618 0,297 -458,852 -597,1015l-22 25 -21 -25zm21 -1436c-217,0 -393,176 -393,393 0,218 176,394 393,394 217,0 394,-176 394,-394 -1,-217 -177,-393 -394,-393zm0 0z" data-original="#78B9EB" data-old_color="#ffffff"/>
+   <g>
+    <path class="fil0" d="M646 0c-357,1 -645,289 -646,646 0,348 600,1029 625,1058 5,7 13,10 21,10 8,0 16,-3 21,-10 26,-29 625,-710 625,-1058 0,-357 -289,-645 -646,-646zm0 56c326,0 590,264 590,590 0,292 -482,872 -590,997 -107,-125 -590,-705 -590,-997 0,-326 264,-590 590,-590zm0 0z" data-original="#000000" data-old_color="#ffffff"/>
+    <path class="fil0" d="M646 197c-232,0 -421,189 -421,421 0,233 189,422 421,422 233,0 421,-189 421,-422 0,-232 -188,-421 -421,-421zm0 787c-202,0 -365,-164 -365,-366 0,-201 163,-365 365,-365 202,0 366,164 366,365 -1,202 -164,365 -366,366zm0 0z" data-original="#000000" data-old_color="#ffffff"/>
+    <path class="fil0" d="M590 590l112 0 0 56 -112 0 0 -56zm0 0z" data-original="#000000" data-old_color="#ffffff"/>
+    <path class="fil0" d="M731 590l56 0 0 56 -56 0 0 -56zm0 0z" data-original="#000000" data-old_color="#ffffff"/>
+    <path class="fil0" d="M506 590l56 0 0 56 -56 0 0 -56zm0 0z" data-original="#000000" data-old_color="#ffffff"/>
+   </g>
+  </g>
+  <circle class="fil1" cx="646" cy="618" r="461"/>
+  <g id="cyber.svg">
+   <path class="fil2" d="M1004 829l-113 153 -490 0 -113 -153 77 -209 86 -65 -46 -63 7 -13c0,0 7,-15 20,-39 17,-32 43,-81 71,-130 55,-93 137,-104 140,-104l3 0 2 0c4,0 86,11 141,104 26,45 50,90 67,122 15,28 24,47 24,47l7 13 -46 63 86 65 77 209z"/>
+   <path class="fil3" d="M1004 829l-113 153 -245 0 0 -776 2 0c4,0 86,11 141,104 26,45 50,90 67,122 15,28 24,47 24,47l7 13 -46 63 86 65 77 209z"/>
+   <path class="fil4" d="M777 410c0,2 -2,40 -17,79 -10,23 -23,43 -38,57 -21,19 -46,28 -74,28 -1,0 -1,0 -2,0 -49,-1 -88,-30 -111,-85 -17,-38 -20,-77 -20,-78l45 -4c0,0 0,1 0,2l172 0c0,-1 0,-1 0,-1l45 2z"/>
+   <rect class="fil5" x="428" y="648" width="435" height="334"/>
+   <rect class="fil6" x="646" y="648" width="218" height="334"/>
+   <path class="fil7" d="M777 410c0,2 -2,40 -17,79 -10,23 -23,43 -38,57 -21,19 -46,28 -74,28 -1,0 -1,0 -2,0l0 -165 86 0c0,-1 0,-1 0,-1l45 2z"/>
+   <path class="fil8" d="M856 432c-44,-10 -116,-22 -209,-22l-1 0c-94,0 -168,16 -214,30 17,-32 43,-81 71,-130 55,-93 137,-104 140,-104l3 0 2 0c4,0 86,11 141,104 26,45 50,90 67,122z"/>
+   <path class="fil9" d="M647 410l-1 0 0 -204 2 0c4,0 86,11 141,104 26,45 50,90 67,122 -44,-10 -116,-22 -209,-22z"/>
+   <path class="fil10" d="M716 842l0 20 33 0 0 46 -37 0c-10,26 -35,44 -64,44l-4 0c-29,0 -54,-18 -64,-44l-37 0 0 -46 33 0 0 -20 -33 0 0 -46 36 0c3,-8 7,-16 12,-22l-8 -6 0 -37 45 0 0 13 8 5c2,0 5,0 8,0l4 0c3,0 6,0 8,0l8 -5 0 -13 45 0 0 37 -8 6c5,6 9,14 12,22l36 0 0 46 -33 0z"/>
+   <path class="fil11" d="M713 796l36 0 0 46 -33 0 0 20 33 0 0 46 -37 0c-10,26 -35,44 -64,44l-2 0 0 -203 2 0c3,0 6,0 8,0l8 -5 0 -13 45 0 0 37 -8 6c5,6 9,14 12,22z"/>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+  </g>
+ </g>
+</svg>
