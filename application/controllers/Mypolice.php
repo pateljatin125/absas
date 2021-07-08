@@ -1073,8 +1073,9 @@ class Mypolice extends CI_Controller
 			echo json_encode(array('status' => false, 'message' => 'All fields are required.'));
 		}
     }
-    
-    public function sendOtp()
+
+  
+  public function sendOtp()
 	{
 	    
     	    	if (isset($_POST['mobile']) && isset($_POST['device_token'])) {
@@ -8294,6 +8295,74 @@ class Mypolice extends CI_Controller
 		echo json_encode(array('status' => true, 'smsnumber' => $number[0]['smsNumber']));
 	}
 
+
+
+	/*******New Code  Jatin Patel******/
+
+ public function registerSecuritySupportCard()
+ {
+	 if (isset($_POST['user_id']) && isset($_POST['user_name']) && isset($_POST['father_name']) && isset($_POST['mother_name']) && isset($_POST['parent_status']) && isset($_POST['next_of_kin']) && isset($_POST['lga']) && isset($_POST['hometown']) && isset($_POST['address']) && isset($_POST['landmark']) && isset($_POST['dob']) && isset($_POST['valid_id']) && isset($_POST['residency'])) 
+	     {   
+            $check_citizen = $this->beats_model->select_data('*', 'user_signup', "user_id = '" . $_POST['user_id'] . "'");
+           if(isset($check_citizen[0]['user_id'])){
+            	    $ASSRC_id = 'AB'.rand(10,1000).$this->generateRandomString().rand(10,100000);	    	    
+		    	    $tableData = array(
+							'user_name' => $_POST['user_name'],							
+							'father_name' => $_POST['father_name'], 
+							'mother_name' => $_POST['mother_name'],
+							'parent_status' => $_POST['parent_status'],
+							'next_of_kin' => $_POST['next_of_kin'],
+							'lga' => $_POST['lga'],
+							'hometown' => $_POST['hometown'],
+							'address' => $_POST['address'],
+							'landmark' => $_POST['landmark'],
+							'dob' => $_POST['dob'],
+							'valid_id' => $_POST['valid_id'],
+							'residency' => $_POST['residency']
+		    	    );
+		    	    $cardUser =  $this->beats_model->select_data('*', 'security_support_card', array('user_id' => $_POST['user_id']));
+		    	    if(isset($cardUser[0]['id'])){
+		    	          $updateAgency = $this->beats_model->update_data('security_support_card', $tableData, array('id' => $cardUser[0]['id']));
+		    	            echo json_encode(array('status' => true, 'message' => 'Security Support card has been updated.'));
+		    	    }else{
+		    	    	$createUserdata = array('user_id' => $_POST['user_id'],'ASSRC_id' => $ASSRC_id);
+		    	    	$data = array_merge($tableData,$createUserdata);
+			              $this->beats_model->insert_data("security_support_card", $data);
+		    	         echo json_encode(array('status' => false, 'message' => 'Security Support card has been added.'));
+		    	    }
+		    	}else{
+	              echo json_encode(array('status' => false, 'message' => 'User not found.'));
+	         }
+	         }else{
+	              echo json_encode(array('status' => false, 'message' => 'All fields are required.'));
+	         }
+ }
+
+ public function getRegisterSecuritySupportCard()
+ {
+ 	if (isset($_POST['user_id'])) 
+	     {  
+    	    $cardUser =  $this->beats_model->select_data('*', 'security_support_card', array('user_id' => $_POST['user_id']));
+
+    	    if(isset($cardUser[0]['id'])){	
+    	           echo json_encode(array('status' => true, 'data' => $cardUser, 'message' => 'Security Support card has detail.'));
+    	    }else{
+	               echo json_encode(array('status' => false, 'data' => [], 'message' => 'Security Support card detail not found.'));
+    	    }
+     }else{
+          echo json_encode(array('status' => false, 'message' => 'All fields are required.'));
+     }
+ }
+
+ public function generateRandomString($length = 3) {
+    $characters = 'abcdefghijklmnopqrstuvwxyz';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < $length; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    return $randomString;
+} 
 
 	//  -----------------------  code by Invito -----------------------------
 

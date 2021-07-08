@@ -29,7 +29,8 @@ date_default_timezone_set('Africa/Lagos');
 if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on"){$ssl_set = "s";} else{$ssl_set = "";}
 $f_url = 'http'.$ssl_set.'://'.$_SERVER['HTTP_HOST'];
 $p = explode('/index.php',$_SERVER['PHP_SELF']);
-$config['base_url'] = $f_url.$p[0];
+//$config['base_url'] = $f_url.$p[0];
+$config['base_url'] = $f_url;
 
 /*
 |--------------------------------------------------------------------------
